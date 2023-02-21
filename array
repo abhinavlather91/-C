@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int marks[4]={23,34,45,56};
+    int i=0 ;
+    while(i<4){
+        cout<<marks[i]<<endl;
+        i++;
+    }
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int marks[4]={23,34,45,56};
+    int *p=marks;
+    cout<<"value at marks[0] or *p is "<<*p<<endl;
+    cout<<"value at marks[1] or *(p+1) is "<<*(p+1)<<endl;
+    cout<<"value at marks[2] or *(p+2) is "<<*(p+2)<<endl;
+    cout<<"value at marks[3] or *(p+3) is "<<*(p+3)<<endl;
+    return 0;
+}
