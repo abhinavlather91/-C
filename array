@@ -25,3 +25,23 @@ int main(){
     cout<<"value at marks[3] or *(p+3) is "<<*(p+3)<<endl;
     return 0;
 }
+
+//struct.  different data types stored at the same time
+#include <iostream>
+using namespace std;
+ struct employee
+    {
+        int eid;
+        char favchar;
+        float salary;
+    };
+int main(){
+    struct employee harry;
+    harry.eid=1;
+    harry.favchar='c';
+    harry.salary=23000;
+    cout<<harry.eid<<endl;
+    cout<<harry.salary<<endl;
+    cout<<harry.favchar<<endl;
+    return 0;
+}
