@@ -91,8 +91,9 @@ int main(){
     cin>>n;
     int ans=fact(n);
     cout<<ans<<endl;
-    return 0;
+    return 0; 
 }
+
 
 #include<iostream> 
 using namespace std;
