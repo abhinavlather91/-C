@@ -46,6 +46,7 @@ int main(){
     return 0;
 }
 
+
 //enum is used to allocate 1,2,3 to increase readibility
 #include <iostream>
 using namespace std;
