@@ -27,6 +27,7 @@ int main(){
     return 0;
 }
 
+
 //struct.  different data types stored at the same time
 #include <iostream>
 using namespace std;
